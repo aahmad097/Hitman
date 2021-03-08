@@ -1,6 +1,6 @@
 # Hitman
 
-Stage 1 tool for persistence on a target environment. All implants are meant to be extemely limited with the soul purpose of persisting on a target device and loading Remote Administrative Tools (RATs). 
+Stage 1 tool for persistence on a target environment. All implants are meant to be extemely limited with the sole purpose of persisting on a target device and loading Remote Administrative Tools (RATs). 
 
 ## Major Components 
 
