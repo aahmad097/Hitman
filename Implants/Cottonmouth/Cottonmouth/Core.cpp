@@ -1,11 +1,11 @@
-
+#include <windows.h>
 #include "Core.h"
 #include "Tasking.h"
 #include "Helper.h"
 #include "HTTP.h"
 
 
-int main() {
+int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow) {
 
 
 	State state;
