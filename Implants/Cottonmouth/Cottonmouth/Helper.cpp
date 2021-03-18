@@ -58,6 +58,12 @@ std::string Encode(const std::string data) {
         *p++ = '=';
     }
 
+    // escape + 
+    for (int i = 0; i < ret.length(); ++i) {
+        if (ret[i] == '+')
+            ret.replace(i, 1, "%2b");
+    }
+	
     return ret;
 }
 
