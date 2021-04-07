@@ -120,7 +120,7 @@ std::string ExecutePS() {
 	if (::Process32FirstW(hSnapshot, &pe)) {
 		do {
 
-			ps.append(std::wstring(pe.szExeFile) + L", " + std::to_wstring(pe.th32ParentProcessID) + L"\n");
+			ps.append(std::wstring(pe.szExeFile) + L", " + std::to_wstring(th32ProcessID) + L"\n");
 			
 		} while (::Process32Next(hSnapshot, &pe));
 
